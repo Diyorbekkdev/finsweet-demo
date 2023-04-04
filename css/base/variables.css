@@ -1,0 +1,179 @@
+/* Variables */
+
+:root {
+  /* Main Background Colors */
+  --primary-bg-color: #fff;        
+  --secondary-bg-color:  #EFF7F2; 
+  --bg-dark: #0B0706;
+  /* Common colors */
+  --dark-green: #70C174;
+  --light-green: #BEF3C0;
+  --light-dark: #1D2130;
+  --grey-color: #525560;
+  --light-grey: #EBF0F9;
+  --secondary-grey: #E5E5E5; 
+  /* font-family */
+  --font:  'Roboto';
+}
+
+/* Variables */
+
+
+
+/* Style berish uchun umumiy classlar. Quydagi stil nomlaridan foydalanib ishlanglar */
+
+/* Home page main title */
+.main_tile{
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 4rem;    /*font-size: 64px*/
+  line-height: 120%;
+  color: var(--primary-bg-color);
+}
+
+
+/* PAGESLARDAGI MAIN TITLE */
+.h1_title{
+  font-family: var(--font);         
+  font-weight: 700;
+  font-size: 3.5rem; /*font-size: 56px*/ 
+  line-height: 120%;
+  color: var(--light-dark);
+}
+
+
+/* SUBTITLE */
+.h2_title{
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 120%;
+  color: var(--light-dark);
+}
+
+/* H3 H4 H5 H6  SMALL TITLES */
+.h3_title{
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 150%;
+  color: var(--light-dark);
+}
+
+.h4_title{
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 150%;
+  color: var(--light-dark);
+}
+
+.h5_title{
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 150%;
+  color: var(--light-dark);
+}
+
+.h6_title{
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 150%;
+  color: var(--light-dark);
+}
+
+
+/* PARAGRAPH CLASES */
+.px_16{
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: var(--grey-color);
+}
+
+/* Paragraph (small) */
+.px_14{
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 0.875px;
+  line-height: 160%;
+  color: var(--grey-color);
+}
+
+
+/* LINE TEXT CLASS */
+
+/* big */
+.line_big{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 19px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1D2130;
+}
+
+/* small */
+.line_small{
+  font-family: var(--font);
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 21px;
+  text-align: right;
+  color: var(--primary-bg-color);
+}
+
+/* BUTTON STYLES AND HOVER EFFECTS */
+/* navbar button */
+.nav_btn{
+  padding: 12px 32px;
+  outline: none;
+  border: none;
+  font-family: var(--font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--primary-bg-color);
+  background: var(--light-dark);
+  border-radius: 4px;
+  transition: background-color .3s ease-in-out;
+}
+
+/* hover */
+.nav_btn:hover{
+  background: var(--bg-dark);
+  transition: background-color .3s ease-in-out;
+}
+/* navbar button */
+
+/* secondary btn styles */
+.secondary_btn{
+  padding: 16px 32px;
+  outline: none;
+  border: none;
+  font-family: var(--font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--light-grey);
+  background: var(--dark-green);                 /*green button*/
+  backdrop-filter: blur(40px);
+  border-radius: 4px;
+  transition: background-color .3s ease-in-out;
+}
+
+.secondary_btn:hover{
+  background: #4d9250; 
+  transition: background-color .3s ease-in-out;
+}
+/* secondary btn styles */
+
+
+
+
+

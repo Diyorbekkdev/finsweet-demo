@@ -1,0 +1,26 @@
+@import "../global.css";
+@import "../module/general-header.css";
+@import "../module/supporters.css";
+@import "../module/project-row.css";
+@import "../module/donate-card.css";
+@import "../module/news-row.css";
+@import "../module/event-row.css";
+
+
+
+/* Variables  */
+:root {
+    /* Main Background Colors */
+    --primary-bg-color: #fff;        
+    --secondary-bg-color:  #EFF7F2; 
+    --bg-dark: #0B0706;
+      /* Common colors */
+    --dark-green: #70C174;
+    --light-green: #BEF3C0;
+    --light-dark: #1D2130;
+    --grey-color: #525560;
+    --light-grey: #EBF0F9;
+    --secondary-grey: #E5E5E5;  
+}
+
+/* O'zgartirilmasin */

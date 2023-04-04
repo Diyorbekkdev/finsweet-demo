@@ -1,0 +1,17 @@
+
+/* MAIN CONTAINER */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.container__poject-post {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container_event{
+    max-width: 768px;
+    margin: 0 auto;
+}
+
