@@ -79,9 +79,22 @@
   width: 100%;
 }
 
-.events__box {
+.event__second_box {
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 620px) {
+  .event__info {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+  }
+
+  .h1_title {
+    text-align: center;
+  }
 }
 
 /* ---event__second__section__end--- */
