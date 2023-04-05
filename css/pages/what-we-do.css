@@ -23,7 +23,8 @@
 /* O'zgartirilmasin */
 
 #what_we_do {
-  padding: 200px 20px;
+  background-color: var(--primary-bg-color);
+  padding: 200px 0 96px;
 }
 
 .what_do_container {
@@ -60,7 +61,7 @@
 .environment_container {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 65px;
 }
 
 .environment_cardblock {
@@ -70,10 +71,12 @@
 }
 .environment_card_top {
   display: flex;
+  justify-content: space-between;
   gap: 65px;
 }
 .environment_card_bottom {
   display: flex;
+  justify-content: space-between;
   gap: 65px;
 }
 
@@ -81,6 +84,7 @@
   display: flex;
   gap: 24px;
 }
+
 .envirnoment_card_content {
   display: flex;
   flex-direction: column;
@@ -97,6 +101,18 @@
   font-size: 14px;
   line-height: 160%;
   color: #525560;
+}
+
+@media (max-width:1265px) {
+  .environment_cardblock {
+    flex-direction: row;
+  }
+  .environment_card_top {
+    flex-direction: column;
+  }
+  .environment_card_bottom {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -122,5 +138,11 @@
   }
   .what_we_do_right {
     width: 100%;
+  }
+  .environment_cardblock {
+    flex-direction: column;
+  }
+  #environment {
+    padding: 96px 0;
   }
 }
