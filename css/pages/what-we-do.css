@@ -146,3 +146,14 @@
     padding: 96px 0;
   }
 }
+@media (max-width:500px) {
+  .what_we_do_left {
+    align-items: center;
+  }
+  .what_we_do_content {
+    text-align: center;
+  }
+  .what_we_do_content p {
+    text-align: center;
+  }
+}

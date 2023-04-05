@@ -27,6 +27,9 @@
   padding: 150px 0 48px;
   text-align: center;
 }
+.blog__title p {
+  text-align: center;
+}
 
 .blog__title h3 {
   line-height: 160%;

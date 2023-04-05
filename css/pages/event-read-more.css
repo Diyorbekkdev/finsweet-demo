@@ -20,6 +20,10 @@
 
 /* ---event__first__section__start--- */
 
+.event__backround {
+  background-color: var(--secondary-bg-color);
+}
+
 .event__title {
   padding: 170px 0 96px;
 }
@@ -36,6 +40,7 @@
 .adress {
   display: flex;
   align-items: center;
+  gap: 8px;
 }
 
 .adress p {
@@ -68,6 +73,28 @@
 
 .event_16_bottom {
   padding: 32px 0 96px;
+}
+
+.event__about__img img {
+  width: 100%;
+}
+
+.event__second_box {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 620px) {
+  .event__info {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+  }
+
+  .h1_title {
+    text-align: center;
+  }
 }
 
 /* ---event__second__section__end--- */

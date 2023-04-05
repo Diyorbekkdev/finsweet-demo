@@ -32,13 +32,15 @@
   margin-top: 100px;
   margin-bottom: 96px;
   background-image: url(../../images/home/background-img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .top_title h1 {
   max-width: 640px;
   padding: 128px 0 48px;
   line-height: 120%;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 700;
   font-style: normal;
   color: #ffffff;
@@ -573,32 +575,11 @@ canvas {
 
 .arrow:hover{
   transform: scale(1.1);
-  animation-name: arrow;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+  transition: .3s ease-in-out;
+  transform: translateX(15px);
 }
 
-@keyframes arrow{
-  from{
-    /* opacity: 0; */
-    transform: translateX(0);
-    transition: .3s ease-in-out;
-  }
 
-  50%{
-
-    opacity: 1;
-    transform: translateX(25px);
-    transition: .3s ease-in-out;
-
-  }
-
-  to{
-    opacity: 1;
-    transform: translateX(0);
-    transition: .3s ease-in-out;
-  }
-}
 
 /* .events__btn button {
   border-radius: 50px;
