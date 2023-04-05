@@ -32,6 +32,8 @@
   margin-top: 100px;
   margin-bottom: 96px;
   background-image: url(../../images/home/background-img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .top_title h1 {
