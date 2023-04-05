@@ -631,6 +631,8 @@ canvas {
 
 /* ---SECOND SECTION END--- */
 
+
+
 /* ---THIRD SECTION START--- */
 
 .events__box {
@@ -721,8 +723,99 @@ canvas {
 
 
 
+.header__third__secion__title {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-top: 96px;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  gap: 96px;
+}
+
+.header__left {
+  padding-left: 96px;
+}
+
+.header__left h1 {
+  line-height: 120%;
+  font-size: 3rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #1d2130;
+}
+
+.header__left p {
+  padding: 16px -1px 32px;
+  line-height: 160%;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #525560;
+}
+
+.box {
+  padding-left: 24px;
+  margin: 32px 0 0;
+  border-left: 1px solid #e5e5e5;
+}
+
+.pad {
+  padding: 8px 0 24px;
+}
+
+.header__card {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header__card h1 {
+  line-height: 28px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #1d2130;
+}
+
+.header__text p {
+  padding-left: 52px;
+  max-width: 384px;
+  line-height: 160%;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #525560;
+}
 
 
+
+
+@media (max-width: 1000px){
+  .header__content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .header__right img{
+    width: 100%;
+    
+  }
+  .header__right{
+    margin: 0 auto;
+  }
+  .header__left{
+    padding-left: 0;
+  }
+  .header__left h1, p{
+    text-align: center;
+  }
+}
 
 
 
