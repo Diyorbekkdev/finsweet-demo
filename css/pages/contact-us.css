@@ -1,21 +1,62 @@
 @import "../global.css";
 @import "../module/general-header.css";
 
-
-
 /* Variables  */
 :root {
-    /* Main Background Colors */
-    --primary-bg-color: #fff;        
-    --secondary-bg-color:  #EFF7F2; 
-    --bg-dark: #0B0706;
-      /* Common colors */
-    --dark-green: #70C174;
-    --light-green: #BEF3C0;
-    --light-dark: #1D2130;
-    --grey-color: #525560;
-    --light-grey: #EBF0F9;
-    --secondary-grey: #E5E5E5;  
+  /* Main Background Colors */
+  --primary-bg-color: #fff;
+  --secondary-bg-color: #eff7f2;
+  --bg-dark: #0b0706;
+  /* Common colors */
+  --dark-green: #70c174;
+  --light-green: #bef3c0;
+  --light-dark: #1d2130;
+  --grey-color: #525560;
+  --light-grey: #ebf0f9;
+  --secondary-grey: #e5e5e5;
 }
 
 /* O'zgartirilmasin */
+body {
+  background-color: var(--light-grey);
+}
+header {
+  background-color: var(--light-grey);
+}
+#contact-us__main {
+  padding-top: 186px;
+  padding-bottom: 6rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.contact-main__left {
+  margin-right: 96px;
+}
+.contact-left__paragraph,
+.contact-left__heading,
+.contact-left__second-paragraph {
+  padding-left: 96px;
+}
+.contact-left__paragraph {
+  background-image: url(../../images/media/frist_paragraph_bgimage.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.contact-left__heading {
+  max-width: 33rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.contact-left__second-paragraph {
+  max-width: 35rem;
+}
+/* contact-main__right Start */
+.contact-main-right-content {
+  margin-bottom: 48px;
+}
+.contact_content {
+  font-size: 1.5rem;
+}
+.contact_content2 span {
+  margin-left: 24px;
+}
