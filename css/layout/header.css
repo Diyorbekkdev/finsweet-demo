@@ -204,7 +204,7 @@ header {
     #navbar-close {
       position: absolute;
       top: 20px;
-      right: 30px;
+      right: 5px;
       display: block;
       border: none;
       background: transparent;
@@ -214,7 +214,7 @@ header {
     .nav-link {
       font-size: 45px;
     }
-    
+
     .nav-link::before {
       top: 50px;
       height: 3px;

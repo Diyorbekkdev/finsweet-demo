@@ -22,3 +22,82 @@
 }
 
 /* O'zgartirilmasin */
+/*----- ABOUT HOME START---- */
+#about-home{
+  background-color: var(--primary-bg-color);
+}
+.about-home{
+  padding-top: 200px;
+}
+.about-home-content{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.about-home-left{
+  display: flex;
+  gap: 24px;
+}
+.about-home-right{
+  max-width: 496px;
+  margin-top: 32px;
+}
+.about-home-line{
+    width: 72px;
+    height: 0px;
+    margin-top: 7px;
+    border: 2px solid var(--light-dark);
+}
+.about-home-main-content h1{
+  max-width: 624px;
+}
+.about-home-right .px_16{
+  margin-top: 16px;
+}
+
+.about-home-video{
+  margin-top: 6rem;
+  margin-bottom: -224px;
+}
+/*----- ABOUT HOME START---- */
+
+/*----- ABOUT SUPPORTERS START---- */
+
+#about-supporters{
+  background-color: var(--secondary-bg-color);
+}
+.about-supporters{
+  padding-top: 320px;
+}
+.about-supporters-content{
+  display: flex;
+  justify-content: space-evenly;
+}
+.a-supporters-left{
+  max-width: 496px;
+}
+.a-supporters-left *:not(.line_big){
+  margin-top: 5px;
+}
+.a-supporters-left{
+  margin-top: 5px;
+}
+
+/*----- ABOUT SUPPORTERS END---- */
+
+/*----- ABOUT AWARDS START----- */
+
+.a-awards-heading{
+  text-align: center;
+}
+.award{
+  text-align: center;
+}
+.award *{
+  margin-top: 10px;
+}
+.award .h6_title{
+  opacity: 0.6;
+}
+
+/*----- ABOUT AWARDS END---- */
