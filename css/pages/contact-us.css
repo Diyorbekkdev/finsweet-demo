@@ -17,12 +17,6 @@
 }
 
 /* O'zgartirilmasin */
-body {
-  background-color: var(--light-grey);
-}
-header {
-  background-color: var(--light-grey);
-}
 #contact-us__main {
   padding-top: 186px;
   padding-bottom: 6rem;
@@ -56,7 +50,14 @@ header {
 }
 .contact_content {
   font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 .contact_content2 span {
   margin-left: 24px;
+}
+.contact__social {
+  display: flex;
+
+  gap: 1.25rem;
+  
 }
