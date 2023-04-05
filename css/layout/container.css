@@ -9,12 +9,16 @@
 .container__poject-post {
     max-width: 1024px;
     margin: 0 auto;
+    padding: 0 1.25rem;
 }
 
 .container_event{
     max-width: 768px;
     margin: 0 auto;
+    padding: 0 1.25rem;
 }
+
+
 
 
 

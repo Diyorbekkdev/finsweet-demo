@@ -21,7 +21,7 @@
 /* Style berish uchun umumiy classlar. Quydagi stil nomlaridan foydalanib ishlanglar */
 
 /* Home page main title */
-.main_tile {
+.main_title {
   font-family: var(--font);
   font-weight: 700;
   font-size: 4rem; /*font-size: 64px*/
