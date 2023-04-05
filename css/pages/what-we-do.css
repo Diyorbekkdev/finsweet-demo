@@ -64,9 +64,15 @@
 }
 
 .environment_cardblock {
+display: grid;
+grid-template-columns: repeat(3, auto);  
+justify-content: space-between;
+grid-column-gap:64px ;
+grid-row-gap:50px ;
+}
+
+.environment_card {
   display: flex;
-  flex-wrap: wrap;
-  gap: 64px;
 }
 
 @media (max-width:1000px) {
