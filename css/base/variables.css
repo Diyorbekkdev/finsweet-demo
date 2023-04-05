@@ -42,7 +42,7 @@
 .h2_title {
   font-family: var(--font);
   font-weight: 700;
-  font-size: 3rem;            
+  font-size: 3rem;
   line-height: 120%;
   color: var(--light-dark);
 }
