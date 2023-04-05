@@ -51,6 +51,7 @@
 }
 
 .repost_middle img {
+  width: 100%;
   margin: 32px 0 48px;
 }
 
@@ -118,4 +119,11 @@
 
 .contribute_pad {
   margin: -96px 0 96px;
+}
+
+@media (max-width: 1027px) {
+  .repost_box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
