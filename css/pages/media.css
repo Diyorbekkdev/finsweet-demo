@@ -20,6 +20,10 @@
 
 /* O'zgartirilmasin */
 /* general-codes-media-news */
+.media__header {
+  background-color: var(--primary-bg-color);
+  z-index: 10;
+}
 #media__news {
   margin-top: 6rem;
   padding: 5rem 0px;
