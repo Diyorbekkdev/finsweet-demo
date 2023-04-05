@@ -79,7 +79,7 @@
   width: 100%;
 }
 
-.events__box {
+.event__second_box {
   display: flex;
   flex-direction: column;
 }
