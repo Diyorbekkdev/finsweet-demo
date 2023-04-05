@@ -31,7 +31,7 @@
 #top_backround {
   margin-top: 100px;
   margin-bottom: 96px;
-  background-image: url(/images/home/background-img.svg);
+  background-image: url(../../images/home/background-img.svg);
 }
 
 .top_title h1 {
@@ -90,9 +90,7 @@
   padding-bottom: 64px;
 }
 
-.bottom_line{
-  /* width: 100%; */
-}
+
 
 .top__bottom h1 {
   line-height: 21px;
@@ -225,7 +223,7 @@
   line-height: 19px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  background: url(/images/home/line.svg)
+  background: url(../../images/home/line.svg)
     no-repeat left center;
   color: #1d2130;
 }
@@ -253,13 +251,13 @@
   transition: 0.4s ease-in-out;
 }
 .home-projects__card:nth-child(1) {
-  background-image: url(/images/home/card-img-1.svg);
+  background-image: url(../../images/home/card-img-1.svg);
 }
 .home-projects__card:nth-child(2) {
-  background-image: url(/images/home/card-img-2.svg);
+  background-image: url(../../images/home/card-img-2.svg);
 }
 .home-projects__card:nth-child(3) {
-  background-image: url(/images/home/card-img-3.svg);
+  background-image: url(../../images/home/card-img-3.svg);
 }
 .for-backgruond {
   width: 100%;
@@ -311,7 +309,7 @@
 
 /* HOME ENDING SECTION STYLE START */
 #backround {
-  background-image: url(/images/home/donation-img.svg);
+  background-image: url(../../images/home/donation-img.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
