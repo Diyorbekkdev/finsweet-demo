@@ -28,7 +28,7 @@
   padding: 170px 0 96px;
 }
 
-.h1_title {
+.event_top {
   padding-bottom: 48px;
 }
 
@@ -59,7 +59,7 @@
   background-color: white;
 }
 
-.h2_title {
+.event_bottom {
   padding: 96px 0 32px;
 }
 
