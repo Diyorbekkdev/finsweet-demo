@@ -10,7 +10,7 @@
   <body>
     <!-- HEADER START -->
     <!-- NAVIGATION START -->
-    <header id="navbar" id="media__header">
+    <header id="navbar" class="media__header">
       <div class="container navbar--container">
         <div class="nav-left">
           <a href="#">
@@ -141,43 +141,89 @@
     <!-- NAVIGATION END -->
     <!-- HEADER END -->
 
-    <main id="contact-us__main" class="container">
-      <div class="contact-main__left">
-        <p class="px_16 line_big contact-left__paragraph">CONTACT US</p>
-        <p class="h1_title contact-left__heading">We'd love to hear from you</p>
-        <p class="px_16 contact-left__second-paragraph">
-          Have any question in mind or want to enquire? Please feel free to
-          contact us through the form or the following details.
-        </p>
+    <div class="forbgcolo">
+      <main id="contact-us__main" class="container">
+        <div class="contact-main__left">
+          <p class="px_16 line_big contact-left__paragraph">CONTACT US</p>
+          <p class="h1_title contact-left__heading">
+            We'd love to hear from you
+          </p>
+          <p class="px_16 contact-left__second-paragraph">
+            Have any question in mind or want to enquire? Please feel free to
+            contact us through the form or the following details.
+          </p>
+        </div>
+        <div class="contact-main__right">
+          <div class="contact-main-right-content">
+            <p class="contact_content h4_title">Let's talk!</p>
+            <p class="px_16 contact_content2">
+              +123456789<span class="px_16">hello@finsweet.com</span>
+            </p>
+          </div>
+          <div class="contact-main-right-content">
+            <p class="contact_content h4_title">Headoffice</p>
+            <p class="px_16 contact_content2">
+              8 Brewery Drive, Hudson, NH 03051 <br />
+              USA
+            </p>
+          </div>
+          <div class="contact-main-right-content">
+            <p class="contact_content h4_title">Branch Office</p>
+            <p class="px_16 contact_content2">
+              178 Marconi St., Venice, 34293 <br />
+              Italy
+            </p>
+          </div>
+          <div class="contact__social">
+            <img src="./images/media/facebook.svg" alt="" />
+            <img src="./images/media/twitter.svg" alt="" />
+            <img src="./images/media/linkedin.svg" alt="" />
+          </div>
+        </div>
+      </main>
+    </div>
+    <div id="contact-us__form">
+      <div class="container_event">
+        <form class="contact-us__form" action="#">
+          <div class="contact-form-top">
+            <div class="from-card">
+              <label for="name"> First Name </label>
+              <input type="text" id="name" />
+            </div>
+            <div class="from-card">
+              <label for="lname"> Last Name</label>
+              <input type="text" id="lname" />
+            </div>
+            <div class="from-card">
+              <label for="contact_from-email"> Email Id </label>
+              <input type="email" id="contact_from-email" />
+            </div>
+            <div class="from-card">
+              <label for="subject"> Subject </label>
+              <input type="text" id="subject" />
+            </div>
+          </div>
+          <div class="contact-bottom">
+            <label for="contact__message"> Message </label>
+            <input type="text" id="contact__message" />
+          </div>
+          <button class="secondary_btn contact__submit" type="submit">
+            Send message
+          </button>
+        </form>
       </div>
-      <div class="contact-main__right">
-        <div class="contact-main-right-content">
-          <p class="contact_content h4_title">Let's talk!</p>
-          <p class="px_16 contact_content2">
-            +1 23 456 789 <span class="px_16">hello@finsweet.com</span>
-          </p>
-        </div>
-        <div class="contact-main-right-content">
-          <p class="contact_content h4_title">Headoffice</p>
-          <p class="px_16 contact_content2">
-            8 Brewery Drive, Hudson, NH 03051 <br />
-            USA
-          </p>
-        </div>
-        <div class="contact-main-right-content">
-          <p class="contact_content h4_title">Branch Office</p>
-          <p class="px_16 contact_content2">
-            178 Marconi St., Venice, 34293 <br />
-            Italy
-          </p>
-        </div>
-        <div class="contact__social">
-          <img src="./images/media/facebook.svg" alt="" />
-          <img src="./images/media/twitter.svg" alt="" />
-          <img src="./images/media/linkedin.svg" alt="" />
-        </div>
-      </div>
-    </main>
+    </div>
+    <div class="contact__map container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.0730688873505!2d69.20162391465695!3d41.28551417927367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8ba578f4f58d%3A0xd7a2ecf23413b7a0!2sNajot%20Ta&#39;lim%20Chilonzor%20Filial!5e0!3m2!1suz!2s!4v1680699133400!5m2!1suz!2s"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
     <script src="./js/main.js"></script>
   </body>
 </html>
