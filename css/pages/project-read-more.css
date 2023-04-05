@@ -3,22 +3,119 @@
 @import "../module/project-row.css";
 @import "../module/donate-card.css";
 
-
 /* Variables  */
 :root {
-    /* Main Background Colors */
-    --primary-bg-color: #fff;        
-    --secondary-bg-color:  #EFF7F2; 
-    --bg-dark: #0B0706;
-      /* Common colors */
-    --dark-green: #70C174;
-    --light-green: #BEF3C0;
-    --light-dark: #1D2130;
-    --grey-color: #525560;
-    --light-grey: #EBF0F9;
-    --secondary-grey: #E5E5E5;  
+  /* Main Background Colors */
+  --primary-bg-color: #fff;
+  --secondary-bg-color: #eff7f2;
+  --bg-dark: #0b0706;
+  /* Common colors */
+  --dark-green: #70c174;
+  --light-green: #bef3c0;
+  --light-dark: #1d2130;
+  --grey-color: #525560;
+  --light-grey: #ebf0f9;
+  --secondary-grey: #e5e5e5;
 }
 
 /* O'zgartirilmasin */
 
+.container_repost_title {
+  max-width: 928px;
+  margin: 0 auto;
+}
 
+.container_repost {
+  max-width: 832px;
+  margin: 0 auto;
+}
+
+.container_repost_title {
+  margin-left: 330px;
+}
+
+.repost_h1 {
+  padding: 32px 0;
+}
+
+.repost_start {
+  padding: 170px 0 96px;
+}
+
+.repost__padding__top {
+  padding-top: 15px;
+}
+
+.repost__padding__top__second {
+  padding-bottom: 15px;
+}
+
+.repost_middle img {
+  margin: 32px 0 48px;
+}
+
+.repost__padding__third {
+  padding: 16px 0;
+}
+
+.repost__padding__fourth {
+  padding: 16px 0 96px;
+}
+
+.repost__top {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.drop {
+  line-height: 160%;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  color: #1d2130;
+}
+
+.drop::before {
+  content: "•";
+}
+
+.repost_tt {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#repost {
+  background-color: var(--light-grey);
+}
+
+.repost_box {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.repost__box {
+  padding: 96px 0;
+}
+
+.repost_first_card {
+  padding-bottom: 48px;
+}
+
+.repost_card p {
+  padding-left: 50px;
+}
+
+.repost_tt h1 {
+  line-height: 160%;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  color: #1d2130;
+}
+
+.contribute_pad {
+  margin: -96px 0 96px;
+}

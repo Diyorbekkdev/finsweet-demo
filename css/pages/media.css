@@ -88,9 +88,25 @@
   .meida-news__left {
     width: 100%;
   }
+  .media-news-left__heading,
+  .media-news-left__second-paragraph {
+    padding-left: 0px;
+  }
+  .meida-news__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .media-news-left__btn {
+    margin-left: 0px;
+  }
+  
   .media-news-left__second-paragraph,
   .media-news-left__heading {
-    max-width: 100%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
   .media-news__right {
     width: 75%;
