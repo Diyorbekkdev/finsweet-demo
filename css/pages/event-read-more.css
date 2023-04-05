@@ -3,17 +3,71 @@
 
 /* Variables  */
 :root {
-    /* Main Background Colors */
-    --primary-bg-color: #fff;        
-    --secondary-bg-color:  #EFF7F2; 
-    --bg-dark: #0B0706;
-      /* Common colors */
-    --dark-green: #70C174;
-    --light-green: #BEF3C0;
-    --light-dark: #1D2130;
-    --grey-color: #525560;
-    --light-grey: #EBF0F9;
-    --secondary-grey: #E5E5E5;  
+  /* Main Background Colors */
+  --primary-bg-color: #fff;
+  --secondary-bg-color: #eff7f2;
+  --bg-dark: #0b0706;
+  /* Common colors */
+  --dark-green: #70c174;
+  --light-green: #bef3c0;
+  --light-dark: #1d2130;
+  --grey-color: #525560;
+  --light-grey: #ebf0f9;
+  --secondary-grey: #e5e5e5;
 }
 
 /* O'zgartirilmasin */
+
+/* ---event__first__section__start--- */
+
+.event__title {
+  padding: 170px 0 96px;
+}
+
+.h1_title {
+  padding-bottom: 48px;
+}
+
+.event__info {
+  display: flex;
+  gap: 48px;
+}
+
+.adress {
+  display: flex;
+  align-items: center;
+}
+
+.adress p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--light-dark);
+}
+
+/* ---event__first__section__end--- */
+
+/* ---event__second__section__start--- */
+
+.event__second__section {
+  background-color: white;
+}
+
+.h2_title {
+  padding: 96px 0 32px;
+}
+
+.px_16 {
+  text-align: justify;
+}
+
+.event_16_top {
+  padding: 15px 0 32px;
+}
+
+.event_16_bottom {
+  padding: 32px 0 96px;
+}
+
+/* ---event__second__section__end--- */
