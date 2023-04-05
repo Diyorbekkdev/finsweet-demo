@@ -18,6 +18,11 @@
 /* O'zgartirilmasin */
 
 /* ---first__section__start--- */
+
+.blog__backround {
+  background-color: white;
+}
+
 .blog__title {
   padding: 150px 0 48px;
   text-align: center;
