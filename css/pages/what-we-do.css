@@ -22,3 +22,76 @@
 
 /* O'zgartirilmasin */
 
+#what_we_do {
+  padding: 200px 20px;
+}
+
+.what_do_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.what_we_do_left {
+  display: flex;
+    gap: 25px;
+    width: 55%;
+}
+.what_we_do_right img {
+  width:100%;
+}
+.what_we_do_line {
+  margin-top: 7px;
+  width: 150px;
+  height:0;
+  border: 2px solid var(--light-dark);
+}
+
+.what_we_do_content {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+#environment {
+  padding: 96px 104px;
+  background: var(--secondary-bg-color);
+}
+.environment_container {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.environment_cardblock {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 64px;
+}
+
+@media (max-width:1000px) {
+  .what_do_container {
+    align-items: center;
+  }
+}
+
+@media (max-width:860px) {
+  .what_do_container {
+    flex-direction: column;
+    align-items: start;
+  }
+  .what_we_do_left {
+    width: 100%;
+    flex-direction: column;
+  }
+  .what_we_do_line {
+    width:72px
+  }
+  .what_we_do_content {
+    gap: 25px;
+  }
+  .what_we_do_right {
+    width: 100%;
+  }
+}
+
