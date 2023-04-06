@@ -550,7 +550,7 @@ canvas {
 
 .news__title h1 {
   line-height: 140%;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 500;
   font-style: normal;
   padding-bottom: 48px;
@@ -560,7 +560,7 @@ canvas {
 .news__card h1 {
   padding: 16px 0 8px;
   line-height: 150%;
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: 500;
   font-style: normal;
   color: #1c1d28;
@@ -568,7 +568,7 @@ canvas {
 
 .news__card p {
   line-height: 160%;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   font-style: normal;
   color: #525560;
@@ -608,13 +608,17 @@ canvas {
 }
 
 @media (max-width: 640px) {
-  /* .news__box {
+  .news__box {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
     margin-bottom: 96px;
     padding: 0 20px;
-  } */
+  }
+  .news__card {
+    text-align: center;
+  }
+
 }
 @media (max-width: 610px) {
     .events__title{
