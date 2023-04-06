@@ -676,12 +676,38 @@
         <div class="contribute">
           <h1>You can contribute to make the environment greener!</h1>
           <div class="contribute__href">
-            <a href="#" class="secondary_btn">Join as a volunteer</a>
+            <a href="#" id="open-popup" class="secondary_btn">Join as a volunteer</a>
             <a href="#" class="secondary_btn donate_bgk">Donate</a>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- popup -->
+    <div id="popup-container">
+      <div class="main_br">
+        <button id="close-popup">Close</button>
+        <input type="checkbox" id="chk" aria-hidden="true">
+          <div class="login">
+            <form class="form">
+              <label for="chk" aria-hidden="true">Log in</label>
+              <input class="input" type="email" name="email" placeholder="Email" required="">
+              <input class="input" type="password" name="pswd" placeholder="Password" required="">
+              <button>Log in</button>
+            </form>
+          </div>
+        <div class="register">
+          <form class="form">
+              <label for="chk" aria-hidden="true">Register</label>
+              <input class="input" type="text" name="txt" placeholder="Username" required="">
+              <input class="input" type="email" name="email" placeholder="Email" required="">
+              <input class="input" type="password" name="pswd" placeholder="Password" required="">
+              <button>Register</button>
+            </form>
+          </div>
+      </div>
+    </div>
+    <!-- popup -->
 
     <section>
       <div class="container">
